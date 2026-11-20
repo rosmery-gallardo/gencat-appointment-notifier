@@ -1,0 +1,18 @@
+{
+  "name": "gencat-appointment-notifier",
+  "version": "1.0.0",
+  "description": "Bot en Node.js + Playwright que avisa por Telegram cuando aparece una cita previa disponible.",
+  "main": "revisar.js",
+  "scripts": {
+    "start": "node revisar.js",
+    "chatid": "node chatid.js",
+    "test-aviso": "node avisar.js"
+  },
+  "author": "Rosmery Gallardo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "playwright": "^1.65.0"
+  }
+}
